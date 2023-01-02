@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100;300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section {
+    background-color: #eb8f8f;
+    padding: 10px;
+    width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px #38C6A3;
+    
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #ffffff;
+
+}
+
+.full_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px 5px;
+    height: 39px;
+    border: 1px solid #38C6A3;
+    outline: 0;
+    border-radius: 6px;
+
+}
+
+button {
+    width: 10%;
+    margin-right: 10px;
+    font-size: 20px;
+    height: 39px;
+    border: 0;
+    background-color: #38C6A3;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+.paragraphe_style {
+    margin: 10px;
+    padding: 10px 0;
+    padding-left: 5px;
+    border-radius: 6px;
+    color: #95462e;
+    background-color: #ffffff;
+    word-break: break-all;
+    cursor: pointer;
+    
+}
+
+.paragraphe_style:last-child {
+    margin-bottom: 0;
+}
+
+
+.paragraph_click {
+    background-color: #38C6A3;
+    text-decoration: line-through;
+}
+
